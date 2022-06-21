@@ -1,0 +1,583 @@
+Hit:1 http://in.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:3 http://in.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Hit:4 https://linux.teamviewer.com/deb stable InRelease
+Get:5 https://deb.termius.com squeeze InRelease [4,310 B]
+Get:6 http://packages.microsoft.com/repos/code stable InRelease [10.4 kB]
+Hit:7 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:8 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Ign:9 https://ppa.launchpadcontent.net/morphis/anbox-support/ubuntu jammy InRelease
+Get:10 https://deb.termius.com squeeze/main amd64 Packages [850 B]
+Get:11 http://packages.microsoft.com/repos/code stable/main armhf Packages [90.7 kB]
+Err:12 https://ppa.launchpadcontent.net/morphis/anbox-support/ubuntu jammy Release
+  404  Not Found [IP: 185.125.190.52 443]
+Get:13 http://packages.microsoft.com/repos/code stable/main arm64 Packages [90.9 kB]
+Get:14 http://packages.microsoft.com/repos/code stable/main amd64 Packages [90.0 kB]
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [11.4 kB]
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+apache2 is already the newest version (2.4.52-1ubuntu4).
+ssl-cert is already the newest version (1.1.2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Enabling module rewrite.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  dbconfig-common dbconfig-mysql icc-profiles-free libaio1 libcgi-fast-perl
+  libcgi-pm-perl libevent-core-2.1-7 libevent-pthreads-2.1-7 libfcgi-bin
+  libfcgi-perl libfcgi0ldbl libhtml-template-perl libjs-bootstrap4
+  libjs-codemirror libjs-jquery-mousewheel libjs-jquery-timepicker
+  libjs-jquery-ui libjs-popper.js libjs-sizzle libmecab2 libonig5 libzip4
+  mecab-ipadic mecab-ipadic-utf8 mecab-utils mysql-client-8.0
+  mysql-client-core-8.0 mysql-common mysql-server-8.0 mysql-server-core-8.0
+  node-jquery php-bz2 php-gd php-google-recaptcha php-json
+  php-mariadb-mysql-kbs php-mbstring php-mysql php-nikic-fast-route
+  php-phpmyadmin-motranslator php-phpmyadmin-shapefile
+  php-phpmyadmin-sql-parser php-phpseclib php-psr-cache php-psr-container
+  php-psr-log php-symfony-cache php-symfony-cache-contracts php-symfony-config
+  php-symfony-dependency-injection php-symfony-deprecation-contracts
+  php-symfony-expression-language php-symfony-filesystem
+  php-symfony-polyfill-php80 php-symfony-polyfill-php81
+  php-symfony-service-contracts php-symfony-var-exporter php-tcpdf php-twig
+  php-twig-i18n-extension php-zip php8.1-bz2 php8.1-gd php8.1-mbstring
+  php8.1-mysql php8.1-zip
+Suggested packages:
+  libipc-sharedcache-perl libjs-requirejs libjs-jquery-ui-docs mailx tinyca
+  php-dbase php-libsodium php-mcrypt php-gmp php-symfony-yaml
+  php-symfony-finder php-symfony-proxy-manager-bridge php-imagick php-twig-doc
+  php-recode php-gd2 php-pragmarx-google2fa-qrcode php-samyoul-u2f-php-server
+Recommended packages:
+  php-mcrypt
+The following NEW packages will be installed:
+  dbconfig-common dbconfig-mysql icc-profiles-free libaio1 libcgi-fast-perl
+  libcgi-pm-perl libevent-core-2.1-7 libevent-pthreads-2.1-7 libfcgi-bin
+  libfcgi-perl libfcgi0ldbl libhtml-template-perl libjs-bootstrap4
+  libjs-codemirror libjs-jquery-mousewheel libjs-jquery-timepicker
+  libjs-jquery-ui libjs-popper.js libjs-sizzle libmecab2 libonig5 libzip4
+  mecab-ipadic mecab-ipadic-utf8 mecab-utils mysql-client mysql-client-8.0
+  mysql-client-core-8.0 mysql-common mysql-server mysql-server-8.0
+  mysql-server-core-8.0 node-jquery php-bz2 php-gd php-google-recaptcha
+  php-json php-mariadb-mysql-kbs php-mbstring php-mysql php-nikic-fast-route
+  php-phpmyadmin-motranslator php-phpmyadmin-shapefile
+  php-phpmyadmin-sql-parser php-phpseclib php-psr-cache php-psr-container
+  php-psr-log php-symfony-cache php-symfony-cache-contracts php-symfony-config
+  php-symfony-dependency-injection php-symfony-deprecation-contracts
+  php-symfony-expression-language php-symfony-filesystem
+  php-symfony-polyfill-php80 php-symfony-polyfill-php81
+  php-symfony-service-contracts php-symfony-var-exporter php-tcpdf php-twig
+  php-twig-i18n-extension php-zip php8.1-bz2 php8.1-gd php8.1-mbstring
+  php8.1-mysql php8.1-zip phpmyadmin
+0 upgraded, 69 newly installed, 0 to remove and 0 not upgraded.
+Need to get 45.5 MB of archives.
+After this operation, 321 MB of additional disk space will be used.
+Get:1 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 mysql-common all 5.8+1.0.8 [7,212 B]
+Get:2 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-client-core-8.0 amd64 8.0.29-0ubuntu0.22.04.2 [2,483 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 php8.1-bz2 amd64 8.1.2-1ubuntu2.1 [11.5 kB]
+Get:4 http://security.ubuntu.com/ubuntu jammy-security/main amd64 php8.1-gd amd64 8.1.2-1ubuntu2.1 [32.6 kB]
+Get:5 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-client-8.0 amd64 8.0.29-0ubuntu0.22.04.2 [22.7 kB]
+Get:6 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libaio1 amd64 0.3.112-13build1 [7,176 B]
+Get:7 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libevent-core-2.1-7 amd64 2.1.12-stable-1build3 [93.9 kB]
+Get:8 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libevent-pthreads-2.1-7 amd64 2.1.12-stable-1build3 [7,642 B]
+Get:9 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libmecab2 amd64 0.996-14build9 [199 kB]
+Get:10 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-server-core-8.0 amd64 8.0.29-0ubuntu0.22.04.2 [16.9 MB]
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/main amd64 php8.1-mbstring amd64 8.1.2-1ubuntu2.1 [484 kB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/main amd64 php8.1-mysql amd64 8.1.2-1ubuntu2.1 [130 kB]
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 php8.1-zip amd64 8.1.2-1ubuntu2.1 [27.1 kB]
+Get:14 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-server-8.0 amd64 8.0.29-0ubuntu0.22.04.2 [1,391 kB]
+Get:15 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 dbconfig-common all 2.0.21 [597 kB]
+Get:16 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 dbconfig-mysql all 2.0.21 [938 B]
+Get:17 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 icc-profiles-free all 2.0.1+dfsg-1.1 [214 kB]
+Get:18 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libcgi-pm-perl all 4.54-1 [188 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libfcgi0ldbl amd64 2.4.2-2build2 [28.0 kB]
+Get:20 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libfcgi-perl amd64 0.82+ds-1build1 [22.8 kB]
+Get:21 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libcgi-fast-perl all 1:2.15-1 [10.5 kB]
+Get:22 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libfcgi-bin amd64 2.4.2-2build2 [11.2 kB]
+Get:23 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libhtml-template-perl all 2.97-1.1 [59.1 kB]
+Get:24 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-popper.js all 1.16.1+ds-5 [53.8 kB]
+Get:25 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-bootstrap4 all 4.6.0+dfsg1-4 [534 kB]
+Get:26 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-jquery-mousewheel all 1:3.1.13-5 [6,324 B]
+Get:27 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-jquery-ui all 1.13.1+dfsg-1 [253 kB]
+Get:28 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-jquery-timepicker all 1.6.3-1 [48.2 kB]
+Get:29 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-sizzle all 2.3.6+ds+~2.3.3-1 [32.3 kB]
+Get:30 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 libonig5 amd64 6.9.7.1-2build1 [172 kB]
+Get:31 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libzip4 amd64 1.7.3-1ubuntu2 [55.0 kB]
+Get:32 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 mecab-utils amd64 0.996-14build9 [4,850 B]
+Get:33 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 mecab-ipadic all 2.7.0-20070801+main-3 [6,718 kB]
+Get:34 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 mecab-ipadic-utf8 all 2.7.0-20070801+main-3 [4,384 B]
+Get:35 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-client all 8.0.29-0ubuntu0.22.04.2 [9,428 B]
+Get:36 http://in.archive.ubuntu.com/ubuntu jammy-updates/main amd64 mysql-server all 8.0.29-0ubuntu0.22.04.2 [9,534 B]
+Get:37 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 node-jquery all 3.6.0+dfsg+~3.5.13-1 [160 kB]
+Get:38 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-bz2 all 2:8.1+92ubuntu1 [1,832 B]
+Get:39 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 php-gd all 2:8.1+92ubuntu1 [1,828 B]
+Get:40 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-google-recaptcha all 1.2.4-3 [17.1 kB]
+Get:41 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 php-json all 2:8.1+92ubuntu1 [1,834 B]
+Get:42 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-mariadb-mysql-kbs all 1.2.12-1 [31.5 kB]
+Get:43 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-mbstring all 2:8.1+92ubuntu1 [1,844 B]
+Get:44 http://in.archive.ubuntu.com/ubuntu jammy/main amd64 php-mysql all 2:8.1+92ubuntu1 [1,834 B]
+Get:45 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-nikic-fast-route all 1.3.0-3 [13.0 kB]
+Get:46 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-psr-cache all 3.0.0-1 [5,680 B]
+Get:47 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-psr-log all 3.0.0-1 [6,862 B]
+Get:48 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-cache-contracts all 2.4.0-1ubuntu2 [7,132 B]
+Get:49 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-deprecation-contracts all 2.4.0-1ubuntu2 [4,700 B]
+Get:50 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-polyfill-php80 all 1.24.0-1ubuntu2 [6,642 B]
+Get:51 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-psr-container all 2.0.2-1 [3,878 B]
+Get:52 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-service-contracts all 2.4.0-1ubuntu2 [8,136 B]
+Get:53 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-var-exporter all 5.4.4+dfsg-1ubuntu8 [19.1 kB]
+Get:54 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-cache all 5.4.4+dfsg-1ubuntu8 [56.9 kB]
+Get:55 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-expression-language all 5.4.4+dfsg-1ubuntu8 [21.0 kB]
+Get:56 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-phpmyadmin-motranslator all 5.2.0-1build1 [11.5 kB]
+Get:57 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-phpmyadmin-shapefile all 2.1-5 [45.1 kB]
+Get:58 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-phpmyadmin-sql-parser all 5.4.1-2 [75.8 kB]
+Get:59 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-phpseclib all 2.0.36-1 [198 kB]
+Get:60 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-filesystem all 5.4.4+dfsg-1ubuntu8 [23.9 kB]
+Get:61 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-polyfill-php81 all 1.24.0-1ubuntu2 [5,218 B]
+Get:62 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-config all 5.4.4+dfsg-1ubuntu8 [49.7 kB]
+Get:63 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-symfony-dependency-injection all 5.4.4+dfsg-1ubuntu8 [115 kB]
+Get:64 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-tcpdf all 6.4.4+dfsg1-1 [8,063 kB]
+Get:65 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-twig all 3.3.8-2ubuntu4 [83.4 kB]
+Get:66 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-twig-i18n-extension all 3.0.0-2 [7,756 B]
+Get:67 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 php-zip all 2:8.1+92ubuntu1 [1,830 B]
+Get:68 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-codemirror all 5.65.0+~cs5.83.9-1 [757 kB]
+Get:69 http://in.archive.ubuntu.com/ubuntu jammy/universe amd64 phpmyadmin all 4:5.1.1+dfsg1-5ubuntu1 [4,937 kB]
+Preconfiguring packages ...
+[?1049h[22;0;0t[1;38r[4l[?25l(B[m[37m[40m[1;38r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[14;30H[30m[47m┌────────────────────────────────┤ [31mConfiguring phpmyadmin[30m ├────────────────────────────────┐[15;30H│ Please choose the web server that should be automatically configured to run phpMyAdmin.  │[97m[40m [16;30H[30m[47m│                                                                                          │[97m[40m [17;30H[30m[47m│ Web server to reconfigure automatically:                                                 │[97m[40m [18;30H[30m[47m│                                                                                          │[97m[40m [19;30H[30m[47m│    [37m[45m[[41m [45m] apache2   [30m[47m                                                                        │[97m[40m [20;30H[30m[47m│    [37m[45m[ ] lighttpd  [30m[47m                                                                        │[97m[40m [21;30H[30m[47m│                                                                                          │[97m[40m [22;30H[30m[47m│                                                                                          │[97m[40m [23;30H[30m[47m│                                          <Ok>                                            │[97m[40m [24;30H[30m[47m│                                                                                          │[97m[40m [25;30H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;31H                                                                                            [19;39H[?12l[?25h[38;1H[37m(B[m[39;49m[K[?1049l[23;0;0tFetched 45.5 MB in 21s (2,147 kB/s)
+Selecting previously unselected package mysql-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 211932 files and directories currently installed.)
+Preparing to unpack .../0-mysql-common_5.8+1.0.8_all.deb ...
+Unpacking mysql-common (5.8+1.0.8) ...
+Selecting previously unselected package mysql-client-core-8.0.
+Preparing to unpack .../1-mysql-client-core-8.0_8.0.29-0ubuntu0.22.04.2_amd64.deb ...
+Unpacking mysql-client-core-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+
+
+Selecting previously unselected package mysql-client-8.0.
+Preparing to unpack .../2-mysql-client-8.0_8.0.29-0ubuntu0.22.04.2_amd64.deb ...
+Unpacking mysql-client-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../3-libaio1_0.3.112-13build1_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.112-13build1) ...
+Selecting previously unselected package libevent-core-2.1-7:amd64.
+Preparing to unpack .../4-libevent-core-2.1-7_2.1.12-stable-1build3_amd64.deb ...
+Unpacking libevent-core-2.1-7:amd64 (2.1.12-stable-1build3) ...
+Selecting previously unselected package libevent-pthreads-2.1-7:amd64.
+Preparing to unpack .../5-libevent-pthreads-2.1-7_2.1.12-stable-1build3_amd64.deb ...
+Unpacking libevent-pthreads-2.1-7:amd64 (2.1.12-stable-1build3) ...
+Selecting previously unselected package libmecab2:amd64.
+Preparing to unpack .../6-libmecab2_0.996-14build9_amd64.deb ...
+Unpacking libmecab2:amd64 (0.996-14build9) ...
+Selecting previously unselected package mysql-server-core-8.0.
+Preparing to unpack .../7-mysql-server-core-8.0_8.0.29-0ubuntu0.22.04.2_amd64.deb ...
+Unpacking mysql-server-core-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+Setting up mysql-common (5.8+1.0.8) ...
+update-alternatives: using /etc/mysql/my.cnf.fallback to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Selecting previously unselected package mysql-server-8.0.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 212157 files and directories currently installed.)
+Preparing to unpack .../00-mysql-server-8.0_8.0.29-0ubuntu0.22.04.2_amd64.deb ...
+Unpacking mysql-server-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+Selecting previously unselected package dbconfig-common.
+Preparing to unpack .../01-dbconfig-common_2.0.21_all.deb ...
+Unpacking dbconfig-common (2.0.21) ...
+Selecting previously unselected package dbconfig-mysql.
+Preparing to unpack .../02-dbconfig-mysql_2.0.21_all.deb ...
+Unpacking dbconfig-mysql (2.0.21) ...
+Selecting previously unselected package icc-profiles-free.
+Preparing to unpack .../03-icc-profiles-free_2.0.1+dfsg-1.1_all.deb ...
+Unpacking icc-profiles-free (2.0.1+dfsg-1.1) ...
+Selecting previously unselected package libcgi-pm-perl.
+Preparing to unpack .../04-libcgi-pm-perl_4.54-1_all.deb ...
+Unpacking libcgi-pm-perl (4.54-1) ...
+Selecting previously unselected package libfcgi0ldbl:amd64.
+Preparing to unpack .../05-libfcgi0ldbl_2.4.2-2build2_amd64.deb ...
+Unpacking libfcgi0ldbl:amd64 (2.4.2-2build2) ...
+Selecting previously unselected package libfcgi-perl:amd64.
+Preparing to unpack .../06-libfcgi-perl_0.82+ds-1build1_amd64.deb ...
+Unpacking libfcgi-perl:amd64 (0.82+ds-1build1) ...
+Selecting previously unselected package libcgi-fast-perl.
+Preparing to unpack .../07-libcgi-fast-perl_1%3a2.15-1_all.deb ...
+Unpacking libcgi-fast-perl (1:2.15-1) ...
+Selecting previously unselected package libfcgi-bin.
+Preparing to unpack .../08-libfcgi-bin_2.4.2-2build2_amd64.deb ...
+Unpacking libfcgi-bin (2.4.2-2build2) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../09-libhtml-template-perl_2.97-1.1_all.deb ...
+Unpacking libhtml-template-perl (2.97-1.1) ...
+Selecting previously unselected package libjs-popper.js.
+Preparing to unpack .../10-libjs-popper.js_1.16.1+ds-5_all.deb ...
+Unpacking libjs-popper.js (1.16.1+ds-5) ...
+Selecting previously unselected package libjs-bootstrap4.
+Preparing to unpack .../11-libjs-bootstrap4_4.6.0+dfsg1-4_all.deb ...
+Unpacking libjs-bootstrap4 (4.6.0+dfsg1-4) ...
+Selecting previously unselected package libjs-jquery-mousewheel.
+Preparing to unpack .../12-libjs-jquery-mousewheel_1%3a3.1.13-5_all.deb ...
+Unpacking libjs-jquery-mousewheel (1:3.1.13-5) ...
+Selecting previously unselected package libjs-jquery-ui.
+Preparing to unpack .../13-libjs-jquery-ui_1.13.1+dfsg-1_all.deb ...
+Unpacking libjs-jquery-ui (1.13.1+dfsg-1) ...
+Selecting previously unselected package libjs-jquery-timepicker.
+Preparing to unpack .../14-libjs-jquery-timepicker_1.6.3-1_all.deb ...
+Unpacking libjs-jquery-timepicker (1.6.3-1) ...
+Selecting previously unselected package libjs-sizzle.
+Preparing to unpack .../15-libjs-sizzle_2.3.6+ds+~2.3.3-1_all.deb ...
+Unpacking libjs-sizzle (2.3.6+ds+~2.3.3-1) ...
+Selecting previously unselected package libonig5:amd64.
+Preparing to unpack .../16-libonig5_6.9.7.1-2build1_amd64.deb ...
+Unpacking libonig5:amd64 (6.9.7.1-2build1) ...
+Selecting previously unselected package libzip4:amd64.
+Preparing to unpack .../17-libzip4_1.7.3-1ubuntu2_amd64.deb ...
+Unpacking libzip4:amd64 (1.7.3-1ubuntu2) ...
+Selecting previously unselected package mecab-utils.
+Preparing to unpack .../18-mecab-utils_0.996-14build9_amd64.deb ...
+Unpacking mecab-utils (0.996-14build9) ...
+Selecting previously unselected package mecab-ipadic.
+Preparing to unpack .../19-mecab-ipadic_2.7.0-20070801+main-3_all.deb ...
+Unpacking mecab-ipadic (2.7.0-20070801+main-3) ...
+Selecting previously unselected package mecab-ipadic-utf8.
+Preparing to unpack .../20-mecab-ipadic-utf8_2.7.0-20070801+main-3_all.deb ...
+Unpacking mecab-ipadic-utf8 (2.7.0-20070801+main-3) ...
+Selecting previously unselected package mysql-client.
+Preparing to unpack .../21-mysql-client_8.0.29-0ubuntu0.22.04.2_all.deb ...
+Unpacking mysql-client (8.0.29-0ubuntu0.22.04.2) ...
+Selecting previously unselected package mysql-server.
+Preparing to unpack .../22-mysql-server_8.0.29-0ubuntu0.22.04.2_all.deb ...
+Unpacking mysql-server (8.0.29-0ubuntu0.22.04.2) ...
+Selecting previously unselected package node-jquery.
+Preparing to unpack .../23-node-jquery_3.6.0+dfsg+~3.5.13-1_all.deb ...
+Unpacking node-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Selecting previously unselected package php8.1-bz2.
+Preparing to unpack .../24-php8.1-bz2_8.1.2-1ubuntu2.1_amd64.deb ...
+Unpacking php8.1-bz2 (8.1.2-1ubuntu2.1) ...
+Selecting previously unselected package php-bz2.
+Preparing to unpack .../25-php-bz2_2%3a8.1+92ubuntu1_all.deb ...
+Unpacking php-bz2 (2:8.1+92ubuntu1) ...
+Selecting previously unselected package php8.1-gd.
+Preparing to unpack .../26-php8.1-gd_8.1.2-1ubuntu2.1_amd64.deb ...
+Unpacking php8.1-gd (8.1.2-1ubuntu2.1) ...
+Selecting previously unselected package php-gd.
+Preparing to unpack .../27-php-gd_2%3a8.1+92ubuntu1_all.deb ...
+Unpacking php-gd (2:8.1+92ubuntu1) ...
+Selecting previously unselected package php-google-recaptcha.
+Preparing to unpack .../28-php-google-recaptcha_1.2.4-3_all.deb ...
+Unpacking php-google-recaptcha (1.2.4-3) ...
+Selecting previously unselected package php-json.
+Preparing to unpack .../29-php-json_2%3a8.1+92ubuntu1_all.deb ...
+Unpacking php-json (2:8.1+92ubuntu1) ...
+Selecting previously unselected package php-mariadb-mysql-kbs.
+Preparing to unpack .../30-php-mariadb-mysql-kbs_1.2.12-1_all.deb ...
+Unpacking php-mariadb-mysql-kbs (1.2.12-1) ...
+Selecting previously unselected package php8.1-mbstring.
+Preparing to unpack .../31-php8.1-mbstring_8.1.2-1ubuntu2.1_amd64.deb ...
+Unpacking php8.1-mbstring (8.1.2-1ubuntu2.1) ...
+Selecting previously unselected package php-mbstring.
+Preparing to unpack .../32-php-mbstring_2%3a8.1+92ubuntu1_all.deb ...
+Unpacking php-mbstring (2:8.1+92ubuntu1) ...
+Selecting previously unselected package php8.1-mysql.
+Preparing to unpack .../33-php8.1-mysql_8.1.2-1ubuntu2.1_amd64.deb ...
+Unpacking php8.1-mysql (8.1.2-1ubuntu2.1) ...
+Selecting previously unselected package php-mysql.
+Preparing to unpack .../34-php-mysql_2%3a8.1+92ubuntu1_all.deb ...
+Unpacking php-mysql (2:8.1+92ubuntu1) ...
+Selecting previously unselected package php-nikic-fast-route.
+Preparing to unpack .../35-php-nikic-fast-route_1.3.0-3_all.deb ...
+Unpacking php-nikic-fast-route (1.3.0-3) ...
+Selecting previously unselected package php-psr-cache.
+Preparing to unpack .../36-php-psr-cache_3.0.0-1_all.deb ...
+Unpacking php-psr-cache (3.0.0-1) ...
+Selecting previously unselected package php-psr-log.
+Preparing to unpack .../37-php-psr-log_3.0.0-1_all.deb ...
+Unpacking php-psr-log (3.0.0-1) ...
+Selecting previously unselected package php-symfony-cache-contracts.
+Preparing to unpack .../38-php-symfony-cache-contracts_2.4.0-1ubuntu2_all.deb ...
+Unpacking php-symfony-cache-contracts (2.4.0-1ubuntu2) ...
+Selecting previously unselected package php-symfony-deprecation-contracts.
+Preparing to unpack .../39-php-symfony-deprecation-contracts_2.4.0-1ubuntu2_all.deb ...
+Unpacking php-symfony-deprecation-contracts (2.4.0-1ubuntu2) ...
+Selecting previously unselected package php-symfony-polyfill-php80.
+Preparing to unpack .../40-php-symfony-polyfill-php80_1.24.0-1ubuntu2_all.deb ...
+Unpacking php-symfony-polyfill-php80 (1.24.0-1ubuntu2) ...
+Selecting previously unselected package php-psr-container.
+Preparing to unpack .../41-php-psr-container_2.0.2-1_all.deb ...
+Unpacking php-psr-container (2.0.2-1) ...
+Selecting previously unselected package php-symfony-service-contracts.
+Preparing to unpack .../42-php-symfony-service-contracts_2.4.0-1ubuntu2_all.deb ...
+Unpacking php-symfony-service-contracts (2.4.0-1ubuntu2) ...
+Selecting previously unselected package php-symfony-var-exporter.
+Preparing to unpack .../43-php-symfony-var-exporter_5.4.4+dfsg-1ubuntu8_all.deb ...
+Unpacking php-symfony-var-exporter (5.4.4+dfsg-1ubuntu8) ...
+Selecting previously unselected package php-symfony-cache.
+Preparing to unpack .../44-php-symfony-cache_5.4.4+dfsg-1ubuntu8_all.deb ...
+Unpacking php-symfony-cache (5.4.4+dfsg-1ubuntu8) ...
+Selecting previously unselected package php-symfony-expression-language.
+Preparing to unpack .../45-php-symfony-expression-language_5.4.4+dfsg-1ubuntu8_all.deb ...
+Unpacking php-symfony-expression-language (5.4.4+dfsg-1ubuntu8) ...
+Selecting previously unselected package php-phpmyadmin-motranslator.
+Preparing to unpack .../46-php-phpmyadmin-motranslator_5.2.0-1build1_all.deb ...
+Unpacking php-phpmyadmin-motranslator (5.2.0-1build1) ...
+Selecting previously unselected package php-phpmyadmin-shapefile.
+Preparing to unpack .../47-php-phpmyadmin-shapefile_2.1-5_all.deb ...
+Unpacking php-phpmyadmin-shapefile (2.1-5) ...
+Selecting previously unselected package php-phpmyadmin-sql-parser.
+Preparing to unpack .../48-php-phpmyadmin-sql-parser_5.4.1-2_all.deb ...
+Unpacking php-phpmyadmin-sql-parser (5.4.1-2) ...
+Selecting previously unselected package php-phpseclib.
+Preparing to unpack .../49-php-phpseclib_2.0.36-1_all.deb ...
+Unpacking php-phpseclib (2.0.36-1) ...
+Selecting previously unselected package php-symfony-filesystem.
+Preparing to unpack .../50-php-symfony-filesystem_5.4.4+dfsg-1ubuntu8_all.deb ...
+Unpacking php-symfony-filesystem (5.4.4+dfsg-1ubuntu8) ...
+Selecting previously unselected package php-symfony-polyfill-php81.
+Preparing to unpack .../51-php-symfony-polyfill-php81_1.24.0-1ubuntu2_all.deb ...
+Unpacking php-symfony-polyfill-php81 (1.24.0-1ubuntu2) ...
+Selecting previously unselected package php-symfony-config.
+Preparing to unpack .../52-php-symfony-config_5.4.4+dfsg-1ubuntu8_all.deb ...
+Unpacking php-symfony-config (5.4.4+dfsg-1ubuntu8) ...
+Selecting previously unselected package php-symfony-dependency-injection.
+Preparing to unpack .../53-php-symfony-dependency-injection_5.4.4+dfsg-1ubuntu8_all.deb ...
+Unpacking php-symfony-dependency-injection (5.4.4+dfsg-1ubuntu8) ...
+Selecting previously unselected package php-tcpdf.
+Preparing to unpack .../54-php-tcpdf_6.4.4+dfsg1-1_all.deb ...
+Unpacking php-tcpdf (6.4.4+dfsg1-1) ...
+Selecting previously unselected package php-twig.
+Preparing to unpack .../55-php-twig_3.3.8-2ubuntu4_all.deb ...
+Unpacking php-twig (3.3.8-2ubuntu4) ...
+Selecting previously unselected package php-twig-i18n-extension.
+Preparing to unpack .../56-php-twig-i18n-extension_3.0.0-2_all.deb ...
+Unpacking php-twig-i18n-extension (3.0.0-2) ...
+Selecting previously unselected package php8.1-zip.
+Preparing to unpack .../57-php8.1-zip_8.1.2-1ubuntu2.1_amd64.deb ...
+Unpacking php8.1-zip (8.1.2-1ubuntu2.1) ...
+Selecting previously unselected package php-zip.
+Preparing to unpack .../58-php-zip_2%3a8.1+92ubuntu1_all.deb ...
+Unpacking php-zip (2:8.1+92ubuntu1) ...
+Selecting previously unselected package libjs-codemirror.
+Preparing to unpack .../59-libjs-codemirror_5.65.0+~cs5.83.9-1_all.deb ...
+Unpacking libjs-codemirror (5.65.0+~cs5.83.9-1) ...
+Selecting previously unselected package phpmyadmin.
+Preparing to unpack .../60-phpmyadmin_4%3a5.1.1+dfsg1-5ubuntu1_all.deb ...
+Unpacking phpmyadmin (4:5.1.1+dfsg1-5ubuntu1) ...
+^XSetting up libmecab2:amd64 (0.996-14build9) ...
+Setting up mysql-client-core-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+Setting up libfcgi0ldbl:amd64 (2.4.2-2build2) ...
+Setting up libjs-popper.js (1.16.1+ds-5) ...
+Setting up php8.1-bz2 (8.1.2-1ubuntu2.1) ...
+
+Creating config file /etc/php/8.1/mods-available/bz2.ini with new version
+Setting up php-json (2:8.1+92ubuntu1) ...
+Setting up php-bz2 (2:8.1+92ubuntu1) ...
+Setting up php-phpmyadmin-shapefile (2.1-5) ...
+Setting up libzip4:amd64 (1.7.3-1ubuntu2) ...
+Setting up php-psr-container (2.0.2-1) ...
+Setting up libcgi-pm-perl (4.54-1) ...
+Setting up php8.1-gd (8.1.2-1ubuntu2.1) ...
+
+Creating config file /etc/php/8.1/mods-available/gd.ini with new version
+Setting up libjs-jquery-mousewheel (1:3.1.13-5) ...
+Setting up libfcgi-bin (2.4.2-2build2) ...
+Setting up php-symfony-service-contracts (2.4.0-1ubuntu2) ...
+Setting up dbconfig-common (2.0.21) ...
+
+Creating config file /etc/dbconfig-common/config with new version
+Setting up php-mariadb-mysql-kbs (1.2.12-1) ...
+Setting up libjs-sizzle (2.3.6+ds+~2.3.3-1) ...
+Setting up libhtml-template-perl (2.97-1.1) ...
+Setting up php-phpseclib (2.0.36-1) ...
+Setting up libjs-jquery-ui (1.13.1+dfsg-1) ...
+Setting up php8.1-mysql (8.1.2-1ubuntu2.1) ...
+
+Creating config file /etc/php/8.1/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/8.1/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/8.1/mods-available/pdo_mysql.ini with new version
+Setting up mecab-utils (0.996-14build9) ...
+Setting up libjs-codemirror (5.65.0+~cs5.83.9-1) ...
+Setting up icc-profiles-free (2.0.1+dfsg-1.1) ...
+Setting up php-psr-cache (3.0.0-1) ...
+Setting up libevent-core-2.1-7:amd64 (2.1.12-stable-1build3) ...
+Setting up php-psr-log (3.0.0-1) ...
+Setting up php-nikic-fast-route (1.3.0-3) ...
+Setting up php-symfony-polyfill-php80 (1.24.0-1ubuntu2) ...
+Setting up php8.1-zip (8.1.2-1ubuntu2.1) ...
+
+Creating config file /etc/php/8.1/mods-available/zip.ini with new version
+Setting up libjs-jquery-timepicker (1.6.3-1) ...
+Setting up mysql-client-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+Setting up libfcgi-perl:amd64 (0.82+ds-1build1) ...
+Setting up php-symfony-polyfill-php81 (1.24.0-1ubuntu2) ...
+Setting up php-gd (2:8.1+92ubuntu1) ...
+Setting up libjs-bootstrap4 (4.6.0+dfsg1-4) ...
+Setting up php-google-recaptcha (1.2.4-3) ...
+Setting up php-symfony-var-exporter (5.4.4+dfsg-1ubuntu8) ...
+Setting up libaio1:amd64 (0.3.112-13build1) ...
+Setting up libonig5:amd64 (6.9.7.1-2build1) ...
+Setting up node-jquery (3.6.0+dfsg+~3.5.13-1) ...
+Setting up libevent-pthreads-2.1-7:amd64 (2.1.12-stable-1build3) ...
+Setting up php-symfony-deprecation-contracts (2.4.0-1ubuntu2) ...
+Setting up mysql-client (8.0.29-0ubuntu0.22.04.2) ...
+Setting up php-mysql (2:8.1+92ubuntu1) ...
+Setting up mecab-ipadic (2.7.0-20070801+main-3) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array:   9% |###                                        | emitting double-array:  18% |#######                                    | emitting double-array:  27% |###########                                | emitting double-array:  36% |###############                            | emitting double-array:  45% |###################                        | emitting double-array:  54% |#######################                    | emitting double-array:  63% |###########################                | emitting double-array:  72% |###############################            | emitting double-array:  81% |###################################        | emitting double-array:  90% |#######################################    | emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+emitting double-array:   0% |                                           | emitting double-array:   1% |                                           | emitting double-array:   2% |                                           | emitting double-array:   3% |#                                          | emitting double-array:   4% |#                                          | emitting double-array:   5% |##                                         | emitting double-array:   6% |##                                         | emitting double-array:   7% |###                                        | emitting double-array:   8% |###                                        | emitting double-array:   9% |###                                        | emitting double-array:  10% |####                                       | emitting double-array:  11% |####                                       | emitting double-array:  12% |#####                                      | emitting double-array:  13% |#####                                      | emitting double-array:  14% |######                                     | emitting double-array:  15% |######                                     | emitting double-array:  16% |######                                     | emitting double-array:  17% |#######                                    | emitting double-array:  18% |#######                                    | emitting double-array:  19% |########                                   | emitting double-array:  20% |########                                   | emitting double-array:  21% |#########                                  | emitting double-array:  22% |#########                                  | emitting double-array:  23% |#########                                  | emitting double-array:  24% |##########                                 | emitting double-array:  25% |##########                                 | emitting double-array:  26% |###########                                | emitting double-array:  27% |###########                                | emitting double-array:  28% |############                               | emitting double-array:  29% |############                               | emitting double-array:  30% |############                               | emitting double-array:  31% |#############                              | emitting double-array:  32% |#############                              | emitting double-array:  33% |##############                             | emitting double-array:  34% |##############                             | emitting double-array:  35% |###############                            | emitting double-array:  36% |###############                            | emitting double-array:  37% |###############                            | emitting double-array:  38% |################                           | emitting double-array:  39% |################                           | emitting double-array:  40% |#################                          | emitting double-array:  41% |#################                          | emitting double-array:  42% |##################                         | emitting double-array:  43% |##################                         | emitting double-array:  44% |##################                         | emitting double-array:  45% |###################                        | emitting double-array:  46% |###################                        | emitting double-array:  47% |####################                       | emitting double-array:  48% |####################                       | emitting double-array:  49% |#####################                      | emitting double-array:  50% |#####################                      | emitting double-array:  51% |#####################                      | emitting double-array:  52% |######################                     | emitting double-array:  53% |######################                     | emitting double-array:  54% |#######################                    | emitting double-array:  55% |#######################                    | emitting double-array:  56% |########################                   | emitting double-array:  57% |########################                   | emitting double-array:  58% |########################                   | emitting double-array:  59% |#########################                  | emitting double-array:  60% |#########################                  | emitting double-array:  61% |##########################                 | emitting double-array:  62% |##########################                 | emitting double-array:  63% |###########################                | emitting double-array:  64% |###########################                | emitting double-array:  65% |###########################                | emitting double-array:  66% |############################               | emitting double-array:  67% |############################               | emitting double-array:  68% |#############################              | emitting double-array:  69% |#############################              | emitting double-array:  70% |##############################             | emitting double-array:  71% |##############################             | emitting double-array:  72% |##############################             | emitting double-array:  73% |###############################            | emitting double-array:  74% |###############################            | emitting double-array:  75% |################################           | emitting double-array:  76% |################################           | emitting double-array:  77% |#################################          | emitting double-array:  78% |#################################          | emitting double-array:  79% |#################################          | emitting double-array:  80% |##################################         | emitting double-array:  81% |##################################         | emitting double-array:  82% |###################################        | emitting double-array:  83% |###################################        | emitting double-array:  84% |####################################       | emitting double-array:  85% |####################################       | emitting double-array:  86% |####################################       | emitting double-array:  87% |#####################################      | emitting double-array:  88% |#####################################      | emitting double-array:  89% |######################################     | emitting double-array:  90% |######################################     | emitting double-array:  91% |#######################################    | emitting double-array:  92% |#######################################    | emitting double-array:  93% |#######################################    | emitting double-array:  94% |########################################   | emitting double-array:  95% |########################################   | emitting double-array:  96% |#########################################  | emitting double-array:  97% |#########################################  | emitting double-array:  98% |########################################## | emitting double-array:  99% |########################################## | emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      :   0% |                                           | emitting matrix      :   1% |                                           | emitting matrix      :   2% |                                           | emitting matrix      :   3% |#                                          | emitting matrix      :   4% |#                                          | emitting matrix      :   5% |##                                         | emitting matrix      :   6% |##                                         | emitting matrix      :   7% |###                                        | emitting matrix      :   8% |###                                        | emitting matrix      :   9% |###                                        | emitting matrix      :  10% |####                                       | emitting matrix      :  11% |####                                       | emitting matrix      :  12% |#####                                      | emitting matrix      :  13% |#####                                      | emitting matrix      :  14% |######                                     | emitting matrix      :  15% |######                                     | emitting matrix      :  16% |######                                     | emitting matrix      :  17% |#######                                    | emitting matrix      :  18% |#######                                    | emitting matrix      :  19% |########                                   | emitting matrix      :  20% |########                                   | emitting matrix      :  21% |#########                                  | emitting matrix      :  22% |#########                                  | emitting matrix      :  23% |#########                                  | emitting matrix      :  24% |##########                                 | emitting matrix      :  25% |##########                                 | emitting matrix      :  26% |###########                                | emitting matrix      :  27% |###########                                | emitting matrix      :  28% |############                               | emitting matrix      :  29% |############                               | emitting matrix      :  30% |############                               | emitting matrix      :  31% |#############                              | emitting matrix      :  32% |#############                              | emitting matrix      :  33% |##############                             | emitting matrix      :  34% |##############                             | emitting matrix      :  35% |###############                            | emitting matrix      :  36% |###############                            | emitting matrix      :  37% |###############                            | emitting matrix      :  38% |################                           | emitting matrix      :  39% |################                           | emitting matrix      :  40% |#################                          | emitting matrix      :  41% |#################                          | emitting matrix      :  42% |##################                         | emitting matrix      :  43% |##################                         | emitting matrix      :  44% |##################                         | emitting matrix      :  45% |###################                        | emitting matrix      :  46% |###################                        | emitting matrix      :  47% |####################                       | emitting matrix      :  48% |####################                       | emitting matrix      :  49% |#####################                      | emitting matrix      :  50% |#####################                      | emitting matrix      :  51% |#####################                      | emitting matrix      :  52% |######################                     | emitting matrix      :  53% |######################                     | emitting matrix      :  54% |#######################                    | emitting matrix      :  55% |#######################                    | emitting matrix      :  56% |########################                   | emitting matrix      :  57% |########################                   | emitting matrix      :  58% |########################                   | emitting matrix      :  59% |#########################                  | emitting matrix      :  60% |#########################                  | emitting matrix      :  61% |##########################                 | emitting matrix      :  62% |##########################                 | emitting matrix      :  63% |###########################                | emitting matrix      :  64% |###########################                | emitting matrix      :  65% |###########################                | emitting matrix      :  66% |############################               | emitting matrix      :  67% |############################               | emitting matrix      :  68% |#############################              | emitting matrix      :  69% |#############################              | emitting matrix      :  70% |##############################             | emitting matrix      :  71% |##############################             | emitting matrix      :  72% |##############################             | emitting matrix      :  73% |###############################            | emitting matrix      :  74% |###############################            | emitting matrix      :  75% |################################           | emitting matrix      :  76% |################################           | emitting matrix      :  77% |#################################          | emitting matrix      :  78% |#################################          | emitting matrix      :  79% |#################################          | emitting matrix      :  80% |##################################         | emitting matrix      :  81% |##################################         | emitting matrix      :  82% |###################################        | emitting matrix      :  83% |###################################        | emitting matrix      :  84% |####################################       | emitting matrix      :  85% |####################################       | emitting matrix      :  86% |####################################       | emitting matrix      :  87% |#####################################      | emitting matrix      :  88% |#####################################      | emitting matrix      :  89% |######################################     | emitting matrix      :  90% |######################################     | emitting matrix      :  91% |#######################################    | emitting matrix      :  92% |#######################################    | emitting matrix      :  93% |#######################################    | emitting matrix      :  94% |########################################   | emitting matrix      :  95% |########################################   | emitting matrix      :  96% |#########################################  | emitting matrix      :  97% |#########################################  | emitting matrix      :  98% |########################################## | emitting matrix      :  99% |########################################## | emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up php-symfony-cache-contracts (2.4.0-1ubuntu2) ...
+Setting up php-tcpdf (6.4.4+dfsg1-1) ...
+Setting up php8.1-mbstring (8.1.2-1ubuntu2.1) ...
+
+Creating config file /etc/php/8.1/mods-available/mbstring.ini with new version
+Setting up libcgi-fast-perl (1:2.15-1) ...
+Setting up php-symfony-dependency-injection (5.4.4+dfsg-1ubuntu8) ...
+Setting up dbconfig-mysql (2.0.21) ...
+Setting up php-mbstring (2:8.1+92ubuntu1) ...
+Setting up php-symfony-filesystem (5.4.4+dfsg-1ubuntu8) ...
+Setting up php-symfony-cache (5.4.4+dfsg-1ubuntu8) ...
+Setting up php-symfony-expression-language (5.4.4+dfsg-1ubuntu8) ...
+Setting up mysql-server-core-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+Setting up php-phpmyadmin-sql-parser (5.4.1-2) ...
+Setting up mecab-ipadic-utf8 (2.7.0-20070801+main-3) ...
+Compiling IPA dictionary for Mecab.  This takes long time...
+reading /usr/share/mecab/dic/ipadic/unk.def ... 40
+emitting double-array:   9% |###                                        | emitting double-array:  18% |#######                                    | emitting double-array:  27% |###########                                | emitting double-array:  36% |###############                            | emitting double-array:  45% |###################                        | emitting double-array:  54% |#######################                    | emitting double-array:  63% |###########################                | emitting double-array:  72% |###############################            | emitting double-array:  81% |###################################        | emitting double-array:  90% |#######################################    | emitting double-array: 100% |###########################################| 
+/usr/share/mecab/dic/ipadic/model.def is not found. skipped.
+reading /usr/share/mecab/dic/ipadic/Noun.csv ... 60477
+reading /usr/share/mecab/dic/ipadic/Conjunction.csv ... 171
+reading /usr/share/mecab/dic/ipadic/Noun.demonst.csv ... 120
+reading /usr/share/mecab/dic/ipadic/Interjection.csv ... 252
+reading /usr/share/mecab/dic/ipadic/Filler.csv ... 19
+reading /usr/share/mecab/dic/ipadic/Noun.name.csv ... 34202
+reading /usr/share/mecab/dic/ipadic/Symbol.csv ... 208
+reading /usr/share/mecab/dic/ipadic/Noun.verbal.csv ... 12146
+reading /usr/share/mecab/dic/ipadic/Noun.adverbal.csv ... 795
+reading /usr/share/mecab/dic/ipadic/Others.csv ... 2
+reading /usr/share/mecab/dic/ipadic/Verb.csv ... 130750
+reading /usr/share/mecab/dic/ipadic/Suffix.csv ... 1393
+reading /usr/share/mecab/dic/ipadic/Noun.place.csv ... 72999
+reading /usr/share/mecab/dic/ipadic/Noun.nai.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Noun.others.csv ... 151
+reading /usr/share/mecab/dic/ipadic/Auxil.csv ... 199
+reading /usr/share/mecab/dic/ipadic/Noun.org.csv ... 16668
+reading /usr/share/mecab/dic/ipadic/Postp.csv ... 146
+reading /usr/share/mecab/dic/ipadic/Noun.number.csv ... 42
+reading /usr/share/mecab/dic/ipadic/Adverb.csv ... 3032
+reading /usr/share/mecab/dic/ipadic/Adj.csv ... 27210
+reading /usr/share/mecab/dic/ipadic/Postp-col.csv ... 91
+reading /usr/share/mecab/dic/ipadic/Adnominal.csv ... 135
+reading /usr/share/mecab/dic/ipadic/Noun.proper.csv ... 27328
+reading /usr/share/mecab/dic/ipadic/Prefix.csv ... 221
+reading /usr/share/mecab/dic/ipadic/Noun.adjv.csv ... 3328
+emitting double-array:   0% |                                           | emitting double-array:   1% |                                           | emitting double-array:   2% |                                           | emitting double-array:   3% |#                                          | emitting double-array:   4% |#                                          | emitting double-array:   5% |##                                         | emitting double-array:   6% |##                                         | emitting double-array:   7% |###                                        | emitting double-array:   8% |###                                        | emitting double-array:   9% |###                                        | emitting double-array:  10% |####                                       | emitting double-array:  11% |####                                       | emitting double-array:  12% |#####                                      | emitting double-array:  13% |#####                                      | emitting double-array:  14% |######                                     | emitting double-array:  15% |######                                     | emitting double-array:  16% |######                                     | emitting double-array:  17% |#######                                    | emitting double-array:  18% |#######                                    | emitting double-array:  19% |########                                   | emitting double-array:  20% |########                                   | emitting double-array:  21% |#########                                  | emitting double-array:  22% |#########                                  | emitting double-array:  23% |#########                                  | emitting double-array:  24% |##########                                 | emitting double-array:  25% |##########                                 | emitting double-array:  26% |###########                                | emitting double-array:  27% |###########                                | emitting double-array:  28% |############                               | emitting double-array:  29% |############                               | emitting double-array:  30% |############                               | emitting double-array:  31% |#############                              | emitting double-array:  32% |#############                              | emitting double-array:  33% |##############                             | emitting double-array:  34% |##############                             | emitting double-array:  35% |###############                            | emitting double-array:  36% |###############                            | emitting double-array:  37% |###############                            | emitting double-array:  38% |################                           | emitting double-array:  39% |################                           | emitting double-array:  40% |#################                          | emitting double-array:  41% |#################                          | emitting double-array:  42% |##################                         | emitting double-array:  43% |##################                         | emitting double-array:  44% |##################                         | emitting double-array:  45% |###################                        | emitting double-array:  46% |###################                        | emitting double-array:  47% |####################                       | emitting double-array:  48% |####################                       | emitting double-array:  49% |#####################                      | emitting double-array:  50% |#####################                      | emitting double-array:  51% |#####################                      | emitting double-array:  52% |######################                     | emitting double-array:  53% |######################                     | emitting double-array:  54% |#######################                    | emitting double-array:  55% |#######################                    | emitting double-array:  56% |########################                   | emitting double-array:  57% |########################                   | emitting double-array:  58% |########################                   | emitting double-array:  59% |#########################                  | emitting double-array:  60% |#########################                  | emitting double-array:  61% |##########################                 | emitting double-array:  62% |##########################                 | emitting double-array:  63% |###########################                | emitting double-array:  64% |###########################                | emitting double-array:  65% |###########################                | emitting double-array:  66% |############################               | emitting double-array:  67% |############################               | emitting double-array:  68% |#############################              | emitting double-array:  69% |#############################              | emitting double-array:  70% |##############################             | emitting double-array:  71% |##############################             | emitting double-array:  72% |##############################             | emitting double-array:  73% |###############################            | emitting double-array:  74% |###############################            | emitting double-array:  75% |################################           | emitting double-array:  76% |################################           | emitting double-array:  77% |#################################          | emitting double-array:  78% |#################################          | emitting double-array:  79% |#################################          | emitting double-array:  80% |##################################         | emitting double-array:  81% |##################################         | emitting double-array:  82% |###################################        | emitting double-array:  83% |###################################        | emitting double-array:  84% |####################################       | emitting double-array:  85% |####################################       | emitting double-array:  86% |####################################       | emitting double-array:  87% |#####################################      | emitting double-array:  88% |#####################################      | emitting double-array:  89% |######################################     | emitting double-array:  90% |######################################     | emitting double-array:  91% |#######################################    | emitting double-array:  92% |#######################################    | emitting double-array:  93% |#######################################    | emitting double-array:  94% |########################################   | emitting double-array:  95% |########################################   | emitting double-array:  96% |#########################################  | emitting double-array:  97% |#########################################  | emitting double-array:  98% |########################################## | emitting double-array:  99% |########################################## | emitting double-array: 100% |###########################################| 
+reading /usr/share/mecab/dic/ipadic/matrix.def ... 1316x1316
+emitting matrix      :   0% |                                           | emitting matrix      :   1% |                                           | emitting matrix      :   2% |                                           | emitting matrix      :   3% |#                                          | emitting matrix      :   4% |#                                          | emitting matrix      :   5% |##                                         | emitting matrix      :   6% |##                                         | emitting matrix      :   7% |###                                        | emitting matrix      :   8% |###                                        | emitting matrix      :   9% |###                                        | emitting matrix      :  10% |####                                       | emitting matrix      :  11% |####                                       | emitting matrix      :  12% |#####                                      | emitting matrix      :  13% |#####                                      | emitting matrix      :  14% |######                                     | emitting matrix      :  15% |######                                     | emitting matrix      :  16% |######                                     | emitting matrix      :  17% |#######                                    | emitting matrix      :  18% |#######                                    | emitting matrix      :  19% |########                                   | emitting matrix      :  20% |########                                   | emitting matrix      :  21% |#########                                  | emitting matrix      :  22% |#########                                  | emitting matrix      :  23% |#########                                  | emitting matrix      :  24% |##########                                 | emitting matrix      :  25% |##########                                 | emitting matrix      :  26% |###########                                | emitting matrix      :  27% |###########                                | emitting matrix      :  28% |############                               | emitting matrix      :  29% |############                               | emitting matrix      :  30% |############                               | emitting matrix      :  31% |#############                              | emitting matrix      :  32% |#############                              | emitting matrix      :  33% |##############                             | emitting matrix      :  34% |##############                             | emitting matrix      :  35% |###############                            | emitting matrix      :  36% |###############                            | emitting matrix      :  37% |###############                            | emitting matrix      :  38% |################                           | emitting matrix      :  39% |################                           | emitting matrix      :  40% |#################                          | emitting matrix      :  41% |#################                          | emitting matrix      :  42% |##################                         | emitting matrix      :  43% |##################                         | emitting matrix      :  44% |##################                         | emitting matrix      :  45% |###################                        | emitting matrix      :  46% |###################                        | emitting matrix      :  47% |####################                       | emitting matrix      :  48% |####################                       | emitting matrix      :  49% |#####################                      | emitting matrix      :  50% |#####################                      | emitting matrix      :  51% |#####################                      | emitting matrix      :  52% |######################                     | emitting matrix      :  53% |######################                     | emitting matrix      :  54% |#######################                    | emitting matrix      :  55% |#######################                    | emitting matrix      :  56% |########################                   | emitting matrix      :  57% |########################                   | emitting matrix      :  58% |########################                   | emitting matrix      :  59% |#########################                  | emitting matrix      :  60% |#########################                  | emitting matrix      :  61% |##########################                 | emitting matrix      :  62% |##########################                 | emitting matrix      :  63% |###########################                | emitting matrix      :  64% |###########################                | emitting matrix      :  65% |###########################                | emitting matrix      :  66% |############################               | emitting matrix      :  67% |############################               | emitting matrix      :  68% |#############################              | emitting matrix      :  69% |#############################              | emitting matrix      :  70% |##############################             | emitting matrix      :  71% |##############################             | emitting matrix      :  72% |##############################             | emitting matrix      :  73% |###############################            | emitting matrix      :  74% |###############################            | emitting matrix      :  75% |################################           | emitting matrix      :  76% |################################           | emitting matrix      :  77% |#################################          | emitting matrix      :  78% |#################################          | emitting matrix      :  79% |#################################          | emitting matrix      :  80% |##################################         | emitting matrix      :  81% |##################################         | emitting matrix      :  82% |###################################        | emitting matrix      :  83% |###################################        | emitting matrix      :  84% |####################################       | emitting matrix      :  85% |####################################       | emitting matrix      :  86% |####################################       | emitting matrix      :  87% |#####################################      | emitting matrix      :  88% |#####################################      | emitting matrix      :  89% |######################################     | emitting matrix      :  90% |######################################     | emitting matrix      :  91% |#######################################    | emitting matrix      :  92% |#######################################    | emitting matrix      :  93% |#######################################    | emitting matrix      :  94% |########################################   | emitting matrix      :  95% |########################################   | emitting matrix      :  96% |#########################################  | emitting matrix      :  97% |#########################################  | emitting matrix      :  98% |########################################## | emitting matrix      :  99% |########################################## | emitting matrix      : 100% |###########################################| 
+
+done!
+update-alternatives: using /var/lib/mecab/dic/ipadic-utf8 to provide /var/lib/mecab/dic/debian (mecab-dictionary) in auto mode
+Setting up php-twig (3.3.8-2ubuntu4) ...
+Setting up php-symfony-config (5.4.4+dfsg-1ubuntu8) ...
+Setting up php-zip (2:8.1+92ubuntu1) ...
+Setting up mysql-server-8.0 (8.0.29-0ubuntu0.22.04.2) ...
+update-alternatives: using /etc/mysql/mysql.cnf to provide /etc/mysql/my.cnf (my.cnf) in auto mode
+Renaming removed key_buffer and myisam-recover options (if present)
+mysqld will log errors to /var/log/mysql/error.log
+mysqld is running as pid 46501
+Created symlink /etc/systemd/system/multi-user.target.wants/mysql.service → /lib/systemd/system/mysql.service.
+Setting up php-twig-i18n-extension (3.0.0-2) ...
+Setting up php-phpmyadmin-motranslator (5.2.0-1build1) ...
+Setting up mysql-server (8.0.29-0ubuntu0.22.04.2) ...
+Setting up phpmyadmin (4:5.1.1+dfsg1-5ubuntu1) ...
+[?1049h[22;0;0t[1;24r[4l[?25l(B[m[37m[40m[1;24r[H[2J[1;1H[97m[45m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[3;2H[30m[47m┌────────────────────────┤ [31mConfiguring phpmyadmin[30m ├─────────────────────────┐[4;2H│                                                                           │[97m[40m [5;2H[30m[47m│ The phpmyadmin package must have a database installed and configured      │[97m[40m [6;2H[30m[47m│ before it can be used. This can be optionally handled with                │[97m[40m [7;2H[30m[47m│ dbconfig-common.                                                          │[97m[40m [8;2H[30m[47m│                                                                           │[97m[40m [9;2H[30m[47m│ If you are an advanced database administrator and know that you want to   │[97m[40m [10;2H[30m[47m│ perform this configuration manually, or if your database has already      │[97m[40m [11;2H[30m[47m│ been installed and configured, you should refuse this option. Details on  │[97m[40m [12;2H[30m[47m│ what needs to be done should most likely be provided in                   │[97m[40m [13;2H[30m[47m│ /usr/share/doc/phpmyadmin.                                                │[97m[40m [14;2H[30m[47m│                                                                           │[97m[40m [15;2H[30m[47m│ Otherwise, you should probably choose this option.                        │[97m[40m [16;2H[30m[47m│                                                                           │[97m[40m [17;2H[30m[47m│ Configure database for phpmyadmin with dbconfig-common?                   │[97m[40m [18;2H[30m[47m│                                                                           │[97m[40m [19;2H[30m[47m│                    [37m[41m<Yes>[30m[47m                       <No>                       │[97m[40m [20;2H[30m[47m│                                                                           │[97m[40m [21;2H[30m[47m└───────────────────────────────────────────────────────────────────────────┘[97m[40m [22;3H                                                                             [19;24H
